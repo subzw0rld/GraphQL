@@ -1,4 +1,4 @@
-const { tasks, users } = require('./constants');
+const { tasks, users } = require('../constants');
 
 module.exports = {
     Query: {
