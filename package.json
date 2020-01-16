@@ -4,16 +4,22 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "graph-mongo": "node -e console.clear() && nodemon graphql-mongo/server"
   },
   "repository": "https://github.com/subzw0rld/GraphQL.git",
   "author": "subzw0rld",
   "license": "MIT",
   "dependencies": {
     "apollo-server-express": "^2.9.15",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-resolvers": "^0.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.7",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
